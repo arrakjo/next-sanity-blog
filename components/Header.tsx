@@ -6,7 +6,7 @@ function Header() {
     <header className="flex items-center justify-between space-x-2 px-6 py-5">
       <div className="relative w-32">
         <Link href="/">
-          <Image src="/logo.svg" alt="Logo" width={120} height={50} />
+          <Image src="/logo.svg" alt="Logo" width={120} height={50} priority />
         </Link>
       </div>
 
